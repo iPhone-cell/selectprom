@@ -1,0 +1,408 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-top: 50px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+h2::before {
+    display: inline-block;
+    content: '►►';
+}
+
+tr.table-tr {
+    position: relative;
+}
+tr.table-tr:after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background:  linear-gradient(to right, #fff, #9C9C9C);
+    bottom: 0;
+    left: 0;
+}
+table.elinedk1__table td {
+	padding: 3px;
+	height: 10px;
+    width: 25%!important;
+}
+table.elinedk1__table th {
+	background: #B1B2B2;
+	color: #fff;
+	font-weight: 700;
+    font-size: 12px;
+}
+
+table.elinedk1__table td img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table  {
+    padding:20px 0;
+    overflow: auto;
+}
+
+
+table h3 {
+    text-transform: none;
+    text-align: center;
+}
+
+table.elinedk1__table td:last-child {
+    text-align: right;
+}
+
+
+table.elinedk1__table td.table-tr-big  {
+    width: 50%!important;
+}
+
+.table-tr-big table {
+    width: 100%;
+}
+
+.table-tr-big table tr th:first-child {
+    width: 83%;
+    height: 30px;
+}
+
+.table-tr-big table tr th:last-child {
+    width: 17%;
+    font-size: 10px!important;
+
+}
+
+.table-tr-big table tr td:last-child {
+    text-align: center;
+}
+
+.table-tr-big th {
+    font-size: 14px!important;
+}
+
+.table-tr-big td {
+background: #D9DADA;
+font-weight: 400;
+font-size: 12px;
+font-weight: 500;
+text-transform: none;
+height: 20px!important;
+}
+
+.bold {
+    font-weight: 700!important;
+    text-align: center;
+    font-size: 12px!important;
+}
+
+.elinedk1__footer {
+    position: relative;
+    text-indent: 20px;
+}
+.elinedk1__footer:before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+table td {
+    padding-left: 10px!important;
+}
+
+table .table-tr-big tr td div {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0!important;
+}
+
+table .table-tr-big.two-rows tr td {
+    padding-left: 5px!important;
+}
+
+table tr td:last-child img {
+    box-shadow: -10px 10px 10px #DFDFDE;
+}
+
+.elinedk2 table tr td:first-child img {
+    max-width: 200px;
+}
+
+
+
+.elinedk2 table tr td:last-child img {
+    max-width: 200px;
+}
+
+.elinedk2 table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-info {
+    font-size: 14px;
+}
+
+.elinedk-info__main h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 20px;
+    max-width: 960px;
+}
+
+.elinedk-info__main {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.elinedk-info__main p {
+    font-size: 14px;
+}
+
+h3, h4 {
+    text-transform: uppercase;
+}
+
+.elinedk-info__main-bigtext p {
+    text-indent: 20px;
+}
+
+table{
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+    margin-bottom: 20px;
+}
+table,table td, table th {
+	border: 1px solid #595959;
+}
+table td,table th {
+	padding: 3px;
+	width: 30px;
+	height: 20px;
+}
+.elinedk-info table th {
+	font-weight: 700;
+    text-align-last: left;
+    padding-left: 10px;
+}
+
+.elinedk1__top {
+    margin-bottom: 20px;
+}
+
+.elinedk1__top img{
+    padding-left: 45px;
+}
+
+
+.elinedk1__table,
+.elinedk1__table tr,
+.elinedk1__table td,
+.elinedk1__table th {
+    border: 0!important;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.elinedk1__table {
+    min-width: 300px;
+}
+
+.table-tr-big td,
+.table-tr-big th {
+    border: 1px solid #fff!important;
+}
+
+.table-tr-big h3 {
+    margin-bottom: 10px;
+}
+
+.table-tr-big th {
+    height: 30px!important;
+    font-size: 20px!important;
+    font-weight: 600!important;
+}
+
+.table-tr-big table tr th:last-child {
+    font-size: 14px!important;
+    font-weight: 600!important;
+}
+
+.table-tr-big table tr th:first-child {
+    width: 77%;
+}
+
+.table-tr-big div {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.elinedk1__table tr:last-child:after {
+    display: none;
+}
+
+.elinedk1__footer,
+.elinedk2__footer,
+.elinedk3__footer,
+.table-info {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.table-tr-big h3 {
+    font-size: 15px;
+}
+
+.table-info {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.table-info .elinedk1__footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h5 {
+    text-indent: 20px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    table.elinedk1__table td img,
+    .elinedk2 table tr td:first-child img,
+    .elinedk2 table tr td:last-child img {
+        max-width: 100px;
+    }
+    .elinedk1__table, .elinedk1__table tr, .elinedk1__table td, .elinedk1__table th {
+        font-size: 10px!important;
+    }
+    .table-tr-big table tr th:first-child {
+        font-size: 14px!important;
+    }
+    .table-tr-big table tr th:last-child {
+        font-size: 10px!important;
+    }
+    table.elinedk1__table td {
+        width: 20%!important;
+    }
+    table.elinedk1__table td.table-tr-big {
+        width: 60%!important;
+    }
+    .table-tr-big h3 {
+        font-size: 13px;
+    }
+    table .table-tr-big tr td div {
+        padding-bottom: 0;
+    }
+    table .table-tr-big tr td div span {
+        font-size: 10px;
+        padding-bottom: 0;
+    }
+    table .table-tr-big tr td div span:first-child {
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    table .table-tr-big tr td div span:last-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .elinedk1__footer p
+    .elinedk2__footer p,
+    .elinedk3__footer {
+        font-size: 14px;
+    }
+    .elinedk1__top img {
+        max-width: 100px;
+        padding-left: 27px;
+    }
+    .elinedk1__top h2 {
+        font-size: 14px;
+    }
+    .elinedk-info__main h3 {
+        font-size: 14px;
+    }
+    .elinedk-info__main  h4 {
+        font-size: 12px;
+    }
+    table th {
+        font-size: 14px;
+    }
+    table td {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 575px) {
+    .elinedk1__footer p {
+        font-size: 12px;
+    }
+    .table-tr-big h3 {
+        font-size: 10px;
+    }
+    .elinedk2__footer p {
+        font-size: 12px;
+    }
+    .table-tr-big div {
+        font-size: 10px;
+    }
+    .elinedk-info__main h3,
+    .elinedk-info__main h4 {
+        font-size: 10px;
+    }
+    .elinedk-info__main p {
+        font-size: 12px;
+    }
+    table th {
+        font-size: 9px;
+    }
+    table td {
+        font-size: 10px;
+    }
+    h5 {
+        font-size: 10px;
+    }
+}
